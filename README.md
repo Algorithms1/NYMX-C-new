@@ -1,2 +1,491 @@
 #个人记录
+牢牢掌握数学，物理，生物，化学，编程技术
 
+编程方向有：
+前端、后端、客户端、数据库、网络安全与通信、嵌入式、驱动研发、系统研发、芯片、云计算、基础设施、大数据、AI、游戏开发、物联网、智能网联、工业互联网、安防、信创
+
+- 音视频开发（流媒体、编解码，安防、直播、车机都大量用）
+- 边缘计算（很多归在物联网 / 智能网联里面）
+- 测试开发（自动化测试平台）
+- 机器人开发
+
+- 前端：网页、小程序、界面交互
+- 后端：业务接口、业务逻辑
+- 客户端：PC 桌面端、App 原生程序
+- 数据库：数据存储、建模、调优、DBA
+- 游戏开发：引擎、游戏逻辑、渲染、服务器
+- AI：模型训练、推理、算法应用、大模型落地
+
+底层、硬件相关开发
+- 嵌入式：单片机、Linux 嵌入式、板子开发（STM32、香橙派这类）
+- 驱动研发：硬件驱动，内核模块，介于系统和硬件之间
+- 系统研发：操作系统内核、OS 裁剪、系统组件
+- 芯片：IC 设计（Verilog）、芯片验证（偏硬件描述语言）
+
+网络、云底座方向
+- 网络安全与通信：网络协议、攻防、渗透、通信编程
+- 云计算：云原生、容器、K8s、云平台开发运维
+- 基础设施：服务器、机房、集群、存储、网络底座、SRE
+
+产业赛道（是场景，会用到上面所有技术）
+- 物联网 IoT：传感器、设备上云、MQTT 接入
+- 智能网联：车联网、自动驾驶、车载通信（汽车赛道）
+- 工业互联网：工厂 PLC、产线数据采集、工业平台
+- 安防：摄像头、视频流、告警平台、NVR、视频 AI 识别
+- 信创：国产化适配（国产 CPU、国产 OS、国产数据库、中间件迁移改造，不是独立编程语言，是国产化赛道）
+
+
+编程全部语言：
+# 一、通用编程语言：
+- C：嵌入式、驱动、内核、底层、高性能，香橙派、STM32、Linux 驱动核心语言
+- C++：游戏引擎、音视频、高性能服务、嵌入式、客户端、自动驾驶
+- Java：后端、大数据、安卓客户端、工业、信创项目非常多
+- Python：AI、数据分析、自动化、运维、脚本、后端快速开发
+- C#：Unity 游戏开发、Windows 客户端、后端、.NET 生态
+- Go (Golang)：云原生、后端、高并发服务、基础设施、网络工具
+- PHP：Web 后端
+- Ruby：Web、脚本
+- Perl：老运维、文本处理、安全脚本（现在用得少）
+
+
+# 二、现代静态类型
+- Rust：系统开发、驱动、云、安全工具、嵌入式，近年热门底层语言
+- Swift：苹果生态（iOS、Mac 客户端）
+- Kotlin：安卓原生、后端
+- Scala：大数据 Spark、后端
+- Haskell：函数式编程、学术
+- OCaml：编译器、学术
+- Zig：底层系统、替代 C 的新星
+
+
+# 三、前端 Web 生态语言
+- JavaScript (JS)：网页前端、Node.js 后端
+- TypeScript (TS)：JS 超集，现在前端主流
+- Dart：Flutter 跨端客户端
+
+# 四、数据库查询语言
+- SQL：标准数据库语言（MySQL、PostgreSQL、Oracle 都遵循）
+配套方言：PL/SQL (Oracle)、T-SQL (SQL Server)
+
+# 五、芯片、硬件描述语言（IC 设计，对应【芯片】方向）
+- Verilog HDL
+- SystemVerilog（现在数字 IC 主流）
+- VHDL
+- Chisel（Scala 写的硬件构建语言）
+
+# 六、脚本、运维自动化语言
+- Shell / Bash：Linux 运维、基础设施、脚本
+- PowerShell：Windows 运维
+- Lua：游戏脚本（LuaJIT）、嵌入式脚本、Redis 扩展
+- Tcl：老芯片验证、自动化
+
+# 七、AI、科学计算专用
+- Julia：科学计算、AI、数值仿真
+- R：统计、数据分析
+
+# 八、游戏脚本语言
+- Lua
+- AngelScript
+- GDScript（Godot 引擎专属）
+
+# 九、领域专用 DSL（不是通用编程语言，但开发里天天写）
+- HTML（标记）、CSS（样式），前端必备
+- YAML / JSON / TOML：配置语言（K8s、云原生基础设施）
+- GraphQL：API 查询语言
+- Solidity：区块链智能合约
+- Regular Expression（正则）：文本匹配，安全、后端通用
+
+# 十、国内信创生态里常接触的语言（适配国产芯片 / OS）
+上面 C/C++/Go/Python/Java/Rust 全部都支持
+另外还有一些国产自研语言：
+- 木兰语言
+- 易语言（Windows 国产入门，产业很少用）
+
+# 十一、已经基本淘汰、只在老系统见到的
+- Fortran（科学计算老代码）
+- COBOL（金融老系统）
+- Pascal / Delphi
+- Basic / VB
+---
+
+# 十二、语言方向总结
+- 前端：JS、TS、Dart、HTML、CSS
+- 后端：Java、Go、Python、PHP、Rust、C++、C#
+- 嵌入式 / 驱动：C、C++、Rust、Zig、Lua
+- 芯片 IC：Verilog、SystemVerilog、VHDL
+- AI：Python、Julia、C++
+- 游戏：C++、C#、Lua、GDScript
+- 云计算 / 基础设施：Go、Rust、Shell、YAML
+- 大数据：Java、Scala、Python、SQL
+- 安全：C、C++、Python、Go、Shell、Perl
+- 智能网联 / 工业互联网：C、C++、Python、Rust
+
+这里再列举下
+1. **编程语言**：可以独立写逻辑、编译 / 解释执行
+2. **脚本 / DSL 领域专用语言**：专属语法，依赖特定引擎、平台
+3. **框架、库**：依附于编程语言，是开发套件
+4. **开发工具**：编辑器、编译器、调试、运维、打包、逆向等工具
+
+# 一、编程语言
+C、C++、Java、Python、Go(Golang)、C#、PHP、Ruby、Perl、Rust、Zig、Swift、Kotlin、Scala、Haskell、OCaml、Dart、Nim、Crystal、Odin、Hare、Mojo、Carbon、Roc、Ada、SPARK、Erlang、Elixir、Clojure、F#、Racket、Common Lisp、Modula-2、Modula-3、Forth、APL、BQN、J、K、Julia、R、SAS、ABAP、Hack、Wolfram Language、Q#、Delphi(Object Pascal)、Pascal、VB(VB6/VBA)、COBOL、Fortran
+
+# 二、硬件描述语言（芯片 / FPGA）
+Verilog、SystemVerilog、VHDL、SystemC、Chisel、SpinalHDL、Bluespec BSV、MyHDL
+
+# 三、图形化 / 少儿教育语言
+Scratch、ScratchJr、Logo、Scheme、LabVIEW
+
+# 四、脚本 & DSL（领域脚本语言）
+JavaScript (JS)、TypeScript (TS)、Lua、Tcl、Shell (Bash)、PowerShell、SQL、PL/SQL、T-SQL、正则表达式 Regex、Solidity、M4、Makefile 语法、Nix、Pug (Jade)、HAML、Slim、TeX、LaTeX、Markdown、YAML、JSON、TOML、GraphQL、Datalog、Modelica、Cava、阿里云 SLS QL
+PLC 工控 DSL：ST、LD、FBD、SFC、IL
+传奇引擎专属脚本：Hero M2 脚本（[@main] #IF #ACT）、Pascal Script
+
+# 五、主流框架、组件库
+# Java 生态（Sboot 这里）
+Spring Core、Spring MVC、Spring Boot(Sboot)、Spring Cloud、Spring Security、MyBatis、MyBatis-Plus、Quarkus、Micronaut、Dubbo、Sa-Token、Shiro、JPA、Hibernate
+
+# 前端框架
+Vue、React、Angular、Svelte、Next.js、Nuxt、UniApp、Flutter、ElementUI、Ant Design、TailwindCSS、Bootstrap
+
+# Go 生态框架
+Gin、Echo、Beego、Goth、Kitex、Hertz
+
+# Python 框架
+Django、Flask、FastAPI、Tornado、PyTorch、TensorFlow、PaddlePaddle、LangChain、Scikit-learn、NumPy、Pandas
+
+# C# 生态
+.NET、[ASP.NET](https://ASP.NET) Core、Unity、Avalonia、WPF、WinForms
+
+# C/C++ 高性能、游戏、音视频、嵌入式
+Qt、SDL、Boost、OpenCV、FFmpeg、CMake、Abseil、Bazel、Godot GDScript 配套引擎、Unreal Engine、OpenGL、Vulkan
+
+# 大数据生态框架
+Hadoop、Spark、Flink、Hive、ClickHouse、Elasticsearch、Kafka、Zookeeper
+
+# 云原生 & 基础设施框架
+Kubernetes、Istio、Prometheus、Grafana、Terraform
+
+# 物联网 / 工业
+MQTT 协议栈、Modbus 库、OPC UA SDK
+
+# 安全、渗透相关框架
+Metasploit 框架、Frida、Burp Suite 插件 SDK
+
+# 六、游戏 / 传奇相关配套
+GOM 引擎、HERO 引擎、BLUE 引擎、翎风引擎、Cocos Creator、Flash AS3
+
+# 七、开发工具链
+# 编辑器 IDE
+VS Code、JetBrains 全家桶 (IDEA、PyCharm、Goland、Clion、Rider)、Eclipse、NetBeans、Dev-C++、Code::Blocks、Keil MDK、IAR、Quartus、Vivado
+
+# 编译构建工具
+GCC、Clang、MSVC、MinGW、CMake、Meson、Ninja、Maven、Gradle、npm、yarn、pnpm
+
+# 版本控制
+Git、SVN
+
+# 数据库工具
+MySQL、PostgreSQL、Redis、MongoDB、Oracle、SQL Server、DBC2000、Navicat、DBeaver
+
+# 网络 / 通信工具
+Wireshark、iperf、nc、socat
+
+# 运维、容器虚拟化
+Docker、Podman、LXC、VMware、QEMU
+
+# 逆向、调试工具
+GDB、x64dbg、IDA Pro、OD
+
+# 其他常用工具
+OpenSSL、Nginx、Redis-cli
+
+分为 5 大板块：
+1. 编程语言（通用语言、系统语言、函数式、科研 / 业务专用、硬件 HDL、教育图形化语言）
+2. 脚本 & DSL 领域专用语言（脚本、查询语言、配置标记、工控、传奇引擎专属、其他行业 DSL）
+3. 框架、库、引擎（Java 生态、前端、Go、Python、C/C++、C#、大数据、云原生、AI、游戏、音视频、物联网工业、安全）
+4. 开发、编译、构建工具
+5. 辅助、调试、逆向、运维、数据库、网络工具
+
+备注：
+- 语言：可以独立表达逻辑，能被解释 / 编译执行
+- DSL / 脚本：依附特定引擎、平台，语法只在该场景生效
+- 框架 / 库：基于某门语言封装好的代码集合，简化开发
+- 工具：软件程序，用来写代码、编译、调试、部署、抓包、逆向等
+
+# 一、编程语言
+# 通用主力编程语言（业务、服务、客户端高频）
+1. **C**：系统底层、Linux 内核、驱动、STM32 / 香橙派嵌入式、固件、高性能组件、传奇引擎底层
+2. **C++**：游戏引擎、音视频编解码、高性能服务、自动驾驶、嵌入式、客户端、Unreal、GOM/BLUE 传奇引擎底层
+3. **Java**：SpringBoot 微服务、后端、大数据、安卓原生、信创项目、工业平台
+4. **Go (Golang)**：云原生、高并发服务、网关、中间件、网络工具、容器配套、基础设施
+5. **Python**：AI、深度学习、数据分析、自动化脚本、运维、爬虫、后端快速开发、测试
+6. **C#**：Unity 游戏、Windows 桌面客户端、[ASP.NET](https://ASP.NET)后端、三端传奇复刻、GM 工具
+7. **PHP**：传统 Web 后端、老网站
+8. **Swift**：iOS / MacOS 原生客户端
+9. **Kotlin**：安卓原生、JVM 后端、跨平台
+10. **Dart**：Flutter 跨端 APP
+
+# 现代系统 / 安全方向语言（近些年崛起）
+1. **Rust**：操作系统组件、驱动、云服务、安全工具、嵌入式、高性能，内存安全
+2. **Zig**：替代 C，底层固件、嵌入式、无 GC、编译期强检查
+3. **Odin**：游戏开发、图形程序、高性能系统程序
+4. **Hare**：极简类 C 系统语言，轻量工具开发
+5. **Carbon**：Google 实验型 C++ 继任语言
+6. **Mojo**：面向 AI 异构算力，Python 语法，C 级性能
+7. **Nim**：编译到 C，兼顾脚本易用性和高性能，跨平台
+8. **Crystal**：Ruby 风格语法，编译型，高并发服务
+
+# 函数式编程语言
+1. **Erlang**：软实时、分布式、高可用长连接（直播、消息队列）
+2. **Elixir**：基于 Erlang VM，语法现代化，物联网、消息服务
+3. **Scala**：JVM 函数式，Spark 大数据、后端服务
+4. **F#**：.NET 生态函数式语言，数据科学、量化
+5. **Haskell**：纯函数式，学术、形式化验证
+6. **OCaml**：编译器开发、学术、静态分析
+7. **Racket**：Lisp 方言，教学、自定义 DSL 开发
+8. **Clojure**：JVM 上的 Lisp，并发、数据处理
+9. **Common Lisp**：老牌 Lisp，老 AI 项目、早期自动驾驶代码
+10. **Roc**：无 GC、纯函数式系统语言
+
+# 军工、高安全、工控关键系统语言
+1. **Ada**：航空、航天、导弹、卫星，强类型、高可靠安全系统
+2. **SPARK**：Ada 子集，带形式化验证，最高安全等级机载系统
+
+# 科研、统计、金融专用语言
+1. **Julia**：科学计算、数值仿真、AI、大规模矩阵运算
+2. **R**：统计学、数据分析、生物统计
+3. **SAS**：医药统计、金融风控、企业统计报表
+4. **Wolfram Language (Mathematica)**：符号计算、仿真、数学建模
+5. **APL / BQN / J / K**：数组语言，量化交易、海量数值处理
+
+# 企业业务专用语言
+1. **ABAP**：SAP ERP 专用语言，大型工厂、制造业管理系统
+2. **Hack**：Meta 改造 PHP，早年 Facebook 后端
+
+# 量子计算语言
+1. **Q#**：微软量子电路开发语言
+
+# 老旧遗留语言（维护老系统，信创改造经常碰到）
+1. **Fortran**：老牌科学计算、流体仿真
+2. **COBOL**：银行、金融古老业务系统
+3. **Delphi(Object Pascal)**：传奇老 M2 引擎、登录器、GM 工具、Windows 客户端
+4. **Pascal**：教学、早期程序
+5. **VB6 / VBA**：老 Windows 程序、Office 宏脚本
+6. **Modula-2 / Modula-3**：老式系统教学语言
+7. **Forth**：栈式语言，老式航天嵌入式设备
+
+# 硬件描述语言（芯片、FPGA、SoC）
+1. **Verilog HDL**：数字 IC、FPGA 主流
+2. **SystemVerilog**：现在芯片验证首选
+3. **VHDL**：欧洲工控、航空 FPGA 常用
+4. **SystemC**：C++ 扩展，SoC 系统级仿真建模
+5. **Chisel**：Scala 开发高阶硬件语言，RISC-V 芯片热门
+6. **SpinalHDL**：Scala 硬件构建库，FPGA / 芯片
+7. **Bluespec BSV**：高阶硬件描述语言
+8. **MyHDL**：Python 写硬件逻辑，转 Verilog/VHDL
+
+# 教育 / 图形化编程语言
+1. **Scratch**：积木拖拽少儿编程（你说的 school）
+2. **ScratchJr**：低龄简化版 Scratch
+3. **Logo**：海龟绘图，早期少儿编程
+4. **LabVIEW**：数据流图形化语言，产线测试、仪器自动化
+
+# 二、脚本 & DSL（领域专用语言）
+# 通用脚本
+1. **JavaScript (JS)**：前端、Node.js 后端、H5 传奇
+2. **TypeScript (TS)**：JS 超集，大型前端项目
+3. **Lua**：GOM / 翎风传奇脚本、Redis 扩展、游戏脚本、嵌入式脚本
+4. **Tcl**：芯片验证、自动化测试脚本
+5. **Bash / Shell**：Linux 运维、自动化脚本
+6. **PowerShell**：Windows 运维脚本
+
+# 数据库查询语言
+1. **标准 SQL**
+2. **PL/SQL**：Oracle 存储过程方言
+3. **T-SQL**：SQL Server 方言
+
+# 配置、标记、模板 DSL
+1. **JSON**：数据交换
+2. **YAML**：K8s、容器、配置文件
+3. **TOML**：现代化项目配置
+4. **Markdown**：文档标记
+5. **TeX / LaTeX**：学术论文、公式排版
+6. **Pug(Jade)**：前端模板语言
+7. **HAML / Slim**：Ruby 生态 HTML 模板
+8. **M4**：宏预处理语言
+9. **Makefile 语法**：编译构建描述语言
+10. **Nix 语言**：NixOS 包管理、声明式环境
+
+# 查询、API、逻辑 DSL
+1. **GraphQL**：API 查询 DSL
+2. **Datalog**：逻辑查询，静态分析、图数据库
+3. **正则表达式 Regex**：文本匹配
+
+# 行业专属 DSL
+1. **Modelica**：多物理场仿真（汽车、智能网联，机械 + 电路 + 热仿真）
+2. **Cava**：阿里 OpenSearch 检索自定义排序语言
+3. **阿里云 SLS QL**：阿里云日志服务查询语法
+
+# PLC 工控 DSL（IEC61131-3）
+1. ST 结构化文本
+2. LD 梯形图
+3. FBD 功能块图
+4. SFC 顺序功能图
+5. IL 指令表（淘汰）
+
+# 传奇引擎专属脚本
+1. Hero M2 脚本：`[@main] #IF #ACT` 老式 txt 脚本
+2. Pascal Script：引擎、登录器内嵌脚本引擎
+
+# 区块链 DSL
+1. **Solidity**：以太坊智能合约
+
+# 三、框架、库、引擎
+# Java 生态（Sboot 在这里）
+1. Spring Core：Spring 底层核心容器
+2. Spring MVC：传统 Web 框架
+3. Spring Boot（Sboot）：自动配置微服务脚手架
+4. Spring Cloud：微服务全家桶（注册中心、配置、熔断、网关）
+5. Spring Security：认证、权限、安全
+6. MyBatis：数据库 ORM 映射
+7. MyBatis-Plus：MyBatis 增强封装
+8. Hibernate / JPA：ORM 持久层框架
+9. Dubbo：Java 高性能 RPC 框架
+10. Sa-Token：轻量权限登录框架
+11. Shiro：老牌安全权限框架
+12. Quarkus：云原生轻量 Java 框架
+13. Micronaut：无反射 Java 框架
+
+# 前端生态
+1. Vue2 / Vue3
+2. React
+3. Angular
+4. Svelte
+5. Next.js（React SSR）
+6. Nuxt（Vue SSR）
+7. UniApp：跨端（小程序 / H5/App）
+8. Flutter（Dart 跨端）
+9. TailwindCSS：原子化 CSS
+10. Bootstrap：老牌 UI 样式库
+11. ElementUI / Element Plus
+12. Ant Design / Ant Design Vue
+
+# Go 生态框架
+1. Gin：Web 接口框架
+2. Echo
+3. Beego
+4. Hertz（字节）
+5. Kitex（字节 RPC）
+
+# Python 生态
+1. Web 框架：Django、Flask、FastAPI、Tornado
+2. AI 框架：PyTorch、TensorFlow、PaddlePaddle（飞桨）
+3. AI 应用库：LangChain、Transformers
+4. 数据科学：NumPy、Pandas、Scikit-learn、Matplotlib
+
+# C/C++ 库 & 引擎
+1. Qt：跨平台 GUI 客户端
+2. Boost：C++ 通用工具库
+3. OpenCV：图像视觉、安防 AI
+4. SDL：游戏底层图形输入库
+5. OpenGL / Vulkan：图形渲染 API
+6. FFmpeg：音视频编解码、流媒体（安防、直播、车机）
+7. CMake：构建系统（也算工具，这里配套 C/C++）
+8. Unreal Engine：虚幻游戏引擎
+9. Godot 引擎（配套 GDScript）
+
+# C# 生态
+1. .NET Framework / .NET Core / .NET 6+
+2. [ASP.NET](https://ASP.NET) Core：后端 Web
+3. Unity 引擎
+4. Avalonia：跨平台 GUI
+5. WPF / WinForms：Windows 桌面界面
+
+# 大数据生态
+1. Hadoop：分布式存储计算底座
+2. Spark：分布式计算
+3. Flink：实时流计算
+4. Hive：数据仓库
+5. Kafka：消息队列
+6. Zookeeper：分布式协调
+7. ClickHouse：OLAP 分析数据库
+8. Elasticsearch：检索引擎
+
+# 云原生 & 基础设施框架
+1. Kubernetes (K8s)：容器编排
+2. Istio：服务网格
+3. Prometheus：监控指标采集
+4. Grafana：监控可视化面板
+5. Terraform：基础设施即代码 IaC
+
+# 物联网、工业互联网库
+1. MQTT SDK 库
+2. Modbus SDK
+3. OPC UA SDK
+
+# 安全、逆向框架
+1. Metasploit：渗透测试框架
+2. Frida：动态插桩、APP 逆向
+3. Burp Suite 扩展 SDK
+
+# 传奇 / 游戏相关引擎
+1. GOM / GOM2 引擎
+2. HERO 引擎
+3. BLUE 引擎
+4. 翎风引擎
+5. Cocos Creator（H5 / 手游传奇复刻）
+6. Flash AS3（老页游赤月传说这类）
+
+# 四、开发、编译、构建工具
+# IDE、代码编辑器
+1. VS Code
+2. JetBrains 全家桶：IDEA、PyCharm、Goland、Clion、Rider、WebStorm
+3. Eclipse
+4. NetBeans
+5. Dev-C++
+6. Code::Blocks
+7. Keil MDK（STM32 单片机）
+8. IAR（嵌入式编译器 IDE）
+9. Quartus（Altera FPGA）
+10. Vivado（Xilinx FPGA）
+
+# 编译器、解释器
+1. GCC
+2. Clang
+3. MSVC（微软 C/C++ 编译器）
+4. MinGW
+5. OpenJDK / Dragonwell（阿里 JDK）
+6. CPython
+7. Go compiler
+
+# 项目构建、包管理工具
+1. Maven（Java）
+2. Gradle（Java/Kotlin）
+3. npm /yarn/pnpm（前端）
+4. Meson、Ninja（C/C++ 现代构建）
+5. Cargo（Rust 包管理）
+
+# 版本控制
+1. Git
+2. SVN
+
+# 容器虚拟化工具
+1. Docker
+2. Podman
+3. LXC
+4. QEMU
+5. VMware Workstation
+   
+# 五、调试、逆向、数据库、网络、运维辅助工具
+# 数据库客户端、数据库服务
+MySQL、PostgreSQL、Redis、MongoDB、Oracle、SQL Server
+Navicat、DBeaver、DBC2000（传奇老数据库）、Redis-cli
+
+# 网络工具
+Wireshark、iperf、nc(netcat)、socat
+
+# 逆向、调试工具
+GDB、x64dbg、IDA Pro、OllyDbg(OD)
+
+# Web & 服务中间件
+Nginx、OpenSSL
